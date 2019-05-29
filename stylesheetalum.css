@@ -6,7 +6,6 @@
 }
 
 
-
 .login {
     background-color: #8E7FAE;
 }
@@ -42,6 +41,10 @@ input[type="submit"]{
     width: 100%
     margin: auto;
     
+}
+
+.keapic {
+   size: 90%;
 }
 
 

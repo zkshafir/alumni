@@ -31,7 +31,13 @@ input[type=text]:focus {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+
     
+}
+
+.jobButton {
+    display: flex;
+    justify-content: center;
 }
 
 .button span {
@@ -96,7 +102,13 @@ header {
     left: 0;
     border-bottom: 4px solid #FFB4AA;
     z-index: 100;
+    display: flex;
+    flex-wrap: nowrap;
 
+}
+
+.headerSpan {
+    flex-grow: 1;
 }
 
 #logo {
@@ -134,10 +146,10 @@ a:hover#menu-icon {
 
 }
 
-ul {
-
+.wideMenu {
+display: flex;
     list-style: none;
-
+    flex-wrap: nowrap;
 }
 
 li {
@@ -282,13 +294,9 @@ p {
 }
 
 /*MEDIA QUERY*/
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 770px) {
 
-    header {
 
-        position: absolute;
-
-    }
 
     #menu-icon {
 
@@ -296,8 +304,8 @@ p {
 
     }
 
-    nav ul,
-    nav:active ul {
+    .wideMenu,
+    nav:active .wideMenu {
 
         display: none;
         position: absolute;
@@ -320,10 +328,9 @@ p {
 
     }
 
-    nav:hover ul {
+    nav:hover .wideMenu {
 
         display: block;
-
     }
 
     .profile-image {
@@ -339,4 +346,3 @@ p {
 
 
 
-    
