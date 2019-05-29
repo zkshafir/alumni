@@ -10,7 +10,6 @@ input[type=text] {
   font-size: 16px;
   background-color: white;
   padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
 
@@ -69,7 +68,7 @@ input[type=text]:focus {
 body {
     font-size: 1.05em;
     line-height: 1.25em;
-    font-family: Helvetica Neue, Helvetica, Arial;
+    font-family: "Helvetica Neue", "Helvetica, Arial";
     background: #fff;
     color: black;
 }
@@ -230,7 +229,7 @@ input[type="button"] {
 
 
     table {
-        font-family: helvetica neue, sans-serif;
+        font-family: "helvetica neue", "sans-serif";
         border-collapse: collapse;
         width: 100%;
         padding: 100px;
