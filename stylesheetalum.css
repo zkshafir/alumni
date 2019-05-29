@@ -8,6 +8,8 @@
 
 .login {
     background-color: #8E7FAE;
+       display: flex;
+    justify-content: center;
 }
 
 
@@ -29,9 +31,6 @@ input{
 }
 
 
-
-
-
 input[type="submit"]{
     margin-top: 2em;
     background-color:#FFB4AA;
@@ -43,9 +42,6 @@ input[type="submit"]{
     
 }
 
-.keapic {
-   size: 90%;
-}
 
 
 
